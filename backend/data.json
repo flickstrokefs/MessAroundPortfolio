@@ -1,0 +1,92 @@
+{
+  "projects": [
+    {
+      "id": "neuronode",
+      "slug": "neuronode-wireless-sensor",
+      "title": "NeuroNode",
+      "subtitle": "Custom STM32-based wireless sensor module",
+      "year": "2025",
+      "description": "A compact, low-power wireless sensor module built around an STM32L4 microcontroller. Features onboard BME688 environmental sensing, custom KiCad PCB layout, LoRa radio for long-range telemetry, and a FreeRTOS task scheduler. Designed for deployment in remote field environments with a 6-month battery target.",
+      "role": "Lead Hardware & Firmware Engineer",
+      "team": "Personal Project",
+      "timeline": "4 Months",
+      "heroEmoji": "🔌",
+      "gradientFrom": "rgba(0,229,255,0.2)",
+      "gradientTo": "rgba(184,255,0,0.1)",
+      "tags": ["STM32", "FreeRTOS", "KiCad", "LoRa", "C", "PCB Design"],
+      "category": "embedded",
+      "gridWidth": 6,
+      "links": [
+        { "label": "GitHub Repo", "href": "https://github.com/example/neuronode" },
+        { "label": "Hardware Schematics", "href": "https://github.com/example/neuronode/schematics" }
+      ],
+      "featured": true
+    },
+    {
+      "id": "iot-sensor-dash",
+      "slug": "iot-sensor-dashboard",
+      "title": "Distributed Environment Dashboard",
+      "subtitle": "Real-time sensor mesh with live MQTT telemetry and visual analytics",
+      "year": "2025",
+      "description": "A high-throughput IoT sensor network monitoring indoor and outdoor air quality, temperature, and relative humidity. Utilizing low-power ESP32 nodes communicating via ESP-NOW, bridged to an MQTT server. The frontend features real-time visualizations built using WebSockets, rendering live metrics.",
+      "role": "Full-Stack IoT Developer",
+      "team": "Personal Project",
+      "timeline": "2 Months",
+      "heroEmoji": "📊",
+      "gradientFrom": "rgba(0,229,255,0.25)",
+      "gradientTo": "rgba(184,255,0,0.05)",
+      "tags": ["ESP32", "MQTT", "React", "Node.js", "Tailwind CSS"],
+      "category": "iot",
+      "gridWidth": 6,
+      "links": [
+        { "label": "Live Dashboard", "href": "https://example-iot-dash.com" },
+        { "label": "Firmware Source", "href": "https://github.com/example/esp32-sensor-mesh" }
+      ],
+      "featured": false
+    },
+    {
+      "id": "synapse-orchestrator",
+      "slug": "synapse-task-orchestration",
+      "title": "Synapse",
+      "subtitle": "Real-time distributed task orchestration system",
+      "year": "2024",
+      "description": "A distributed job orchestration platform written in Go, designed for coordinating multi-node embedded device fleets. Features a gRPC control plane, Redis-backed job queue, Prometheus metrics, and a React dashboard for real-time fleet status monitoring.",
+      "role": "Systems Architect & Developer",
+      "team": "Fleet Automation (4 members)",
+      "timeline": "8 Months",
+      "heroEmoji": "⚙️",
+      "gradientFrom": "rgba(255,45,120,0.15)",
+      "gradientTo": "rgba(255,92,0,0.1)",
+      "tags": ["Go", "gRPC", "Redis", "React", "Docker", "Prometheus"],
+      "category": "software",
+      "gridWidth": 12,
+      "links": [
+        { "label": "Dashboard Demo", "href": "https://example-synapse-demo.com" },
+        { "label": "System Architecture", "href": "https://github.com/example/synapse-spec" }
+      ],
+      "featured": true
+    },
+    {
+      "id": "term-flow-cli",
+      "slug": "term-flow-cli",
+      "title": "TermFlow CLI",
+      "subtitle": "Lightweight terminal-based environment config and script runner",
+      "year": "2024",
+      "description": "A blazing fast CLI developer tool built in Go for managing workspace configurations, project initialization templates, and multi-process shell runner. Features local cache management, custom shell-script pipelines, and auto-completions.",
+      "role": "Solo Developer",
+      "team": "Personal Project",
+      "timeline": "3 Weeks",
+      "heroEmoji": "💻",
+      "gradientFrom": "rgba(255,45,120,0.25)",
+      "gradientTo": "rgba(255,92,0,0.05)",
+      "tags": ["Go", "CLI", "Terminal UI", "YAML Parser", "Cross-Platform"],
+      "category": "software",
+      "gridWidth": 3,
+      "links": [
+        { "label": "GitHub Releases", "href": "https://github.com/example/termflow" }
+      ],
+      "featured": false
+    }
+  ],
+  "submissions": []
+}
